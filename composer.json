@@ -1,0 +1,45 @@
+{
+    "name": "osflab/pdf",
+    "description": "OSF PDF high-level document generator",
+    "type": "library",
+    "homepage": "https://github.com/osflab/pdf",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Guillaume Ponçon",
+            "email": "guillaume.poncon@openstates.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/osflab/pdf/issues",
+        "source": "https://github.com/osflab/pdf"
+    },
+    "require": {
+        "php": "^7.1.0",
+        "tecnickcom/tcpdf": "^6.2",
+        "zendframework/ZendPdf": "~2.0.2",
+        "ext-haru": "*",
+        "osflab/exception": "~3.0.0",
+        "osflab/stream": "~3.0.0",
+        "osflab/bean": "~3.0.0",
+        "osflab/helper": "~3.0.0"
+    },
+    "require-dev": {
+        "osflab/test": "~3.0.0"
+    },
+    "suggest": {
+        "osflab/controller": "OSF app integration",
+        "osflab/image": "Pictures integration"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Osf\\Pdf\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
