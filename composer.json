@@ -17,8 +17,7 @@
     "require": {
         "php": "^7.1.0",
         "tecnickcom/tcpdf": "^6.2",
-        "zendframework/ZendPdf": "~2.0.2",
-        "ext-haru": "*",
+        "zendframework/ZendPdf": "If you want to use this deprecated feature",
         "osflab/exception": "~3.0.0",
         "osflab/stream": "~3.0.0",
         "osflab/bean": "~3.0.0",
