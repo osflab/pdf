@@ -21,14 +21,16 @@
         "osflab/exception": "~3.0.0",
         "osflab/stream": "~3.0.0",
         "osflab/bean": "~3.0.0",
-        "osflab/helper": "~3.0.0"
+        "osflab/helper": "~3.0.0",
+        "osflab/container": "~3.0.0"
     },
     "require-dev": {
         "osflab/test": "~3.0.0"
     },
     "suggest": {
         "osflab/controller": "OSF app integration",
-        "osflab/image": "Pictures integration"
+        "osflab/image": "Pictures integration",
+        "osflab/view": "App integration"
     },
     "minimum-stability": "dev",
     "autoload": {
