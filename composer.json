@@ -37,10 +37,5 @@
         "psr-4": {
             "Osf\\Pdf\\": ""
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
     }
 }
