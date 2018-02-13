@@ -32,7 +32,7 @@
         "osflab/image": "Pictures integration",
         "osflab/view": "App integration"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Osf\\Pdf\\": ""
