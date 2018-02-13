@@ -8,6 +8,8 @@
 
 namespace Osf\Pdf\Document\Bean;
 
+use Osf\Test\Runner as OsfTest;
+
 /**
  * Beans test
  *
@@ -18,7 +20,7 @@ namespace Osf\Pdf\Document\Bean;
  * @package osf
  * @subpackage test
  */
-class Test extends \Osf\Test\Runner
+class Test extends OsfTest
 {
     public static function run()
     {
