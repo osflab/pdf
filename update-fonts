@@ -8,7 +8,7 @@ if [ ! $PHP ]; then
     exit 1
 fi
 
-TCPDFAF=`realpath $THISPATH'/../../../vendor/tecnickcom/tcpdf/tools/tcpdf_addfont.php' 2> /dev/null`
+TCPDFAF=`realpath $THISPATH'/../../../../../vendor/tecnickcom/tcpdf/tools/tcpdf_addfont.php' 2> /dev/null`
 if [ ! $TCPDFAF ] ;then
   TCPDFAF=`realpath $THISPATH'/vendor/tecnickcom/tcpdf/tools/tcpdf_addfont.php' 2> /dev/null`
   if [ ! $TCPDFAF ] ;then
