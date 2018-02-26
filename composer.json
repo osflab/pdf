@@ -1,7 +1,7 @@
 {
     "name": "osflab/pdf",
     "description": "OSF PDF high-level document generator",
-    "version": "3.0.0",
+    "version": "3.0.1-dev",
     "type": "library",
     "homepage": "https://github.com/osflab/pdf",
     "license": "AGPL-3.0-or-later",
@@ -18,14 +18,14 @@
     "require": {
         "php": "^7.1.0",
         "tecnickcom/tcpdf": "6.2.16",
-        "osflab/exception": "~3.0.0",
-        "osflab/stream": "~3.0.0",
-        "osflab/bean": "~3.0.0",
-        "osflab/helper": "~3.0.0",
-        "osflab/container": "~3.0.0"
+        "osflab/exception": "~3.0.1",
+        "osflab/stream": "~3.0.1",
+        "osflab/bean": "~3.0.1",
+        "osflab/helper": "~3.0.1",
+        "osflab/container": "~3.0.1"
     },
     "require-dev": {
-        "osflab/test": "~3.0.0"
+        "osflab/test": "~3.0.1"
     },
     "suggest": {
         "zendframework/ZendPdf": "If you want to use this deprecated feature",
