@@ -33,7 +33,7 @@
         "osflab/view": "App integration"
     },
     "minimum-stability": "dev",
-    "prefer-stable": "true",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Osf\\Pdf\\": ""
